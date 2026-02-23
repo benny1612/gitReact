@@ -47,7 +47,7 @@ export default function GridLayout() {
   return (
     <div className="bg-blue-500 grid grid-cols-10 grid-rows-10 gap-.5 pl-10 pr-10">
       <div className="col-span-10 text-center font-sans text-4xl">
-        Find thes <span className="text-purple-700"> Secret Color 🧐!</span>
+       welcome to the game Find thes <span className="text-purple-700"> Secret Color 🧐!</span>
       </div>
 
       <div className="col-start-5 col-end-7 row-span-2 bg-red-700 text-center text-white pt-5 mt-1 text-2xl">
