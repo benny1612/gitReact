@@ -85,7 +85,7 @@ export default function GridLayout() {
         clicks: {counter}
       </div>
 
-      <div className="col-span-10 row-span-2 justify-center text-yellow-300 text-4xl font-mono text-center motion-preset-typewriter-[57]
+      <div className="col-span-10 row-span-2 justify-center text-yellow-300 text-4xl font-mono text-center 
 ">
         {msg}
     
