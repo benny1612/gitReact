@@ -24,7 +24,7 @@ export default function GridLayout() {
     if (e.target.id === "true") {
       setConter((prevCount) => prevCount + 1);
 
-      setmsg(`You found the number after ${counter} tries 🤓🤓🤓🤓`);
+      setmsg(`You found the color after ${counter} tries 🤓🤓🤓🤓`);
       e.target.style.backgroundColor = colorRef;
     
       realued();
@@ -85,11 +85,11 @@ export default function GridLayout() {
         clicks: {counter}
       </div>
 
-      <div className="col-span-10 row-span-2 justify-center text-yellow-300 text-4xl font-mono text-center">
+      <div className="col-span-10 row-span-2 justify-center text-yellow-300 text-4xl font-mono text-center motion-preset-typewriter-[57]
+">
         {msg}
     
       </div>
-      <div className="text-center col-span-10 ">🤩🤩🤩🤩🤩🤩🤩</div>
     </div>
   );
 }
